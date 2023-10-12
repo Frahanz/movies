@@ -144,9 +144,9 @@
       }
 
       function posting() {
-        let url = $("url").val();
-        let star = $("star").val();
-        let comment = $("comment").val();
+        let url = $("#url").val();
+        let star = $("#star").val();
+        let comment = $("#comment").val();
         $.ajax({
           type: "POST",
           url: "/movie",
